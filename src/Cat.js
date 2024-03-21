@@ -1,3 +1,4 @@
+import './App.css'
 import { useState } from "react";
 
 export default function Cat(){
@@ -15,6 +16,7 @@ export default function Cat(){
         <div>
         <h1>My Cat Image</h1>
         <img src={catImage} alt="cat" />
+        <br />
         <button onClick={getCatImage}>getCatImage</button>
       </div>
     )
