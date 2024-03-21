@@ -1,3 +1,17 @@
+.header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header h1{
+  color: #ffcc00;
+}
 .App {
   align-content: center;
 }
@@ -22,10 +36,9 @@
 
 .sections__container__a {
   margin-right: 5px;
-  width: calc(33.33% - 5px);
-  height: 100%;
+  width: 75%;
+  height: 200px;
   border-radius: 4px;
-  flex-grow: 1;
   background-color: #FFFFFF;
   font-size: 0.80rem;
   padding: 15px 0px 10px 0px;
@@ -36,10 +49,9 @@
 
 .sections__container__b {
   margin: 0 5px;
-  width: calc(33.33% - 10px);
-  height: 100%;
+  width: 75%;
+  height: 200px;
   border-radius: 4px;
-  flex-grow: 1;
   background-color: #FFFFFF;
   font-size: 0.80rem;
   padding: 15px 0px 10px 0px;
@@ -50,10 +62,9 @@
 
 .sections__container__c {
   margin-left: 5px;
-  width: calc(33.33% - 5px);
-  height: 100%;
+  width: 75%;
+  height: 200px;
   border-radius: 4px;
-  flex-grow: 1;
   background-color: #FFFFFF;
   font-size: 0.80rem;
   padding: 15px 0px 10px 0px;
