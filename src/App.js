@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Cat from "./Cat";
+import Joke from "./Joke";
+import Advice from "./Advice";
+export default function App(){
 
-function App() {
-  return (
+  return(
     <div>
-      <h1>My First React App</h1>
-      <h2>My First React App</h2>
-      <p>My First React App</p>
+      <Cat />
+      <Advice />  
+      <Joke />
     </div>
-  );
+  )
 }
-
-export default App;
